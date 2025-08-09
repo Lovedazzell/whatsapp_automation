@@ -1,0 +1,150 @@
+{
+  "business_info": {
+    "name": "Your Business Name",
+    "description": "Professional service provider specializing in customer solutions",
+    "founded": "2020",
+    "locations": ["Main Office", "Branch Office"],
+    "certifications": ["ISO 9001", "Industry Certified"]
+  },
+  "service_hours": {
+    "weekdays": "9:00 AM - 6:00 PM (Monday to Friday)",
+    "weekends": "10:00 AM - 4:00 PM (Saturday)",
+    "holidays": "Closed on Sundays and major holidays",
+    "emergency": "24/7 emergency support available for premium customers"
+  },
+  "contact_info": {
+    "phone": "+1-800-SUPPORT",
+    "email": "support@yourbusiness.com",
+    "website": "https://yourbusiness.com",
+    "address": "123 Business Street, City, State 12345",
+    "social_media": {
+      "facebook": "https://facebook.com/yourbusiness",
+      "twitter": "https://twitter.com/yourbusiness",
+      "linkedin": "https://linkedin.com/company/yourbusiness"
+    }
+  },
+  "services": [
+    {
+      "name": "Consultation",
+      "description": "Free initial consultation for new customers",
+      "duration": "30 minutes",
+      "price": "Free"
+    },
+    {
+      "name": "Basic Service",
+      "description": "Standard service package",
+      "duration": "2-3 hours",
+      "price": "$99"
+    },
+    {
+      "name": "Premium Service",
+      "description": "Comprehensive service with priority support",
+      "duration": "4-6 hours",
+      "price": "$199"
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "New Customer Discount",
+      "description": "20% off on first service",
+      "valid_until": "December 31, 2024",
+      "code": "NEW20"
+    },
+    {
+      "title": "Weekend Special",
+      "description": "15% off on weekend appointments",
+      "valid_until": "Ongoing",
+      "code": "WEEKEND15"
+    },
+    {
+      "title": "Referral Bonus",
+      "description": "Get $25 credit for each successful referral",
+      "valid_until": "Ongoing",
+      "code": "REFER25"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are your business hours?",
+      "answer": "We're open Monday to Friday from 9:00 AM to 6:00 PM, and Saturdays from 10:00 AM to 4:00 PM. We're closed on Sundays and major holidays.",
+      "category": "hours"
+    },
+    {
+      "question": "Do you offer emergency services?",
+      "description": "Yes, we provide 24/7 emergency support for premium customers. Regular customers can contact us during business hours.",
+      "category": "emergency"
+    },
+    {
+      "question": "How can I book an appointment?",
+      "answer": "You can book an appointment by calling us at +1-800-SUPPORT, emailing support@yourbusiness.com, or visiting our website at https://yourbusiness.com/booking",
+      "category": "booking"
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit cards, debit cards, cash, and bank transfers. We also offer payment plans for services over $200.",
+      "category": "payment"
+    },
+    {
+      "question": "Do you provide free estimates?",
+      "answer": "Yes, we provide free estimates for all our services. You can request an estimate by calling us or filling out the form on our website.",
+      "category": "pricing"
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "We require 24 hours notice for cancellations. Late cancellations may incur a $25 fee. Emergency situations are handled case-by-case.",
+      "category": "policies"
+    },
+    {
+      "question": "Do you offer warranties on your services?",
+      "answer": "Yes, all our services come with a 30-day satisfaction guarantee. Premium services include extended warranties up to 90 days.",
+      "category": "warranty"
+    },
+    {
+      "question": "Can you work on weekends?",
+      "answer": "Yes, we offer weekend appointments from 10:00 AM to 4:00 PM on Saturdays. We also have weekend special pricing available.",
+      "category": "availability"
+    },
+    {
+      "question": "How far do you travel for service calls?",
+      "answer": "We service within a 50-mile radius of our main office. Additional travel fees may apply for locations beyond 25 miles.",
+      "category": "coverage"
+    },
+    {
+      "question": "Do you offer maintenance packages?",
+      "answer": "Yes, we offer monthly, quarterly, and annual maintenance packages. These include regular check-ups and priority scheduling.",
+      "category": "maintenance"
+    }
+  ],
+  "common_inquiries": [
+    {
+      "type": "service_availability",
+      "keywords": ["available", "hours", "open", "schedule", "appointment"],
+      "response_template": "We're available {weekdays} and {weekends}. Would you like to book an appointment?"
+    },
+    {
+      "type": "pricing",
+      "keywords": ["cost", "price", "how much", "fee", "charge"],
+      "response_template": "Our services start at $99. We offer free estimates and various packages. Would you like to learn more about our pricing?"
+    },
+    {
+      "type": "offers",
+      "keywords": ["discount", "offer", "promotion", "deal", "special"],
+      "response_template": "We currently have {current_offers_count} active offers including {offer_highlights}. Would you like me to send you the details?"
+    },
+    {
+      "type": "contact",
+      "keywords": ["contact", "call", "email", "reach", "speak"],
+      "response_template": "You can reach us at {phone} or {email}. We're available {weekdays} and {weekends}."
+    }
+  ],
+  "response_templates": {
+    "greeting": "Hi {customer_name}! Welcome to {business_name}. How can I assist you today?",
+    "service_hours": "Our service hours are {weekdays} and {weekends}. We're closed on Sundays and major holidays.",
+    "offers_summary": "We currently have {offers_count} active offers: {offers_list}. Would you like to learn more about any specific offer?",
+    "booking_instruction": "To book an appointment, you can call us at {phone}, email {email}, or visit our website at {website}.",
+    "contact_info": "You can reach us at {phone} or {email}. We're available {weekdays} and {weekends}.",
+    "website_link": "Visit our website at {website} to learn more about our services and book appointments online.",
+    "follow_up": "Is there anything else I can help you with today?",
+    "closing": "Thank you for contacting {business_name}. Have a great day!"
+  }
+} 

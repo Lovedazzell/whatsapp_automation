@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-customer-service-bot",
+  "version": "1.0.0",
+  "description": "AI-powered WhatsApp customer service bot with OpenAI integration",
+  "main": "enhanced_customer_service_bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node enhanced_customer_service_bot.js",
+    "start:basic": "node customer_service_bot.js",
+    "dev": "node --watch enhanced_customer_service_bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "customer-service",
+    "openai",
+    "chatbot",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
